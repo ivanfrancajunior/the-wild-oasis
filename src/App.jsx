@@ -19,7 +19,7 @@ const App = () => {
             <Route index element={<Navigate replace to="/dashboard" />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/account" element={<Account />} />
-            <Route path="/booking" element={<Booking />} />
+            <Route path="/bookings" element={<Booking />} />
             <Route path="/cabins" element={<Cabins />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="/users" element={<Users />} />

@@ -52,7 +52,7 @@ function CreateCabinForm({ cabinToEdit = {} }) {
   function onError(error) {
     console.log(error);
   }
-  
+
   const { errors } = formState;
 
   return (

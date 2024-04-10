@@ -1,8 +1,6 @@
 import {
   createContext,
-  useRef,
   useState,
-  useEffect,
   useContext,
   cloneElement,
 } from "react";
